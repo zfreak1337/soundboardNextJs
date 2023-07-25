@@ -11,7 +11,7 @@ import {
     transition,
     boxShadow,
     drawerWidth
-} from "styles/nextjs-material-kit";
+} from "styles/nextjs-material-kit.js";
 
 const headerStyle = {
     appBar: {
@@ -34,10 +34,12 @@ const headerStyle = {
     },
     absolute: {
         position: "absolute",
+        alignItems: "center",
         zIndex: "1100"
     },
     fixed: {
         position: "fixed",
+        alignItems: "center",
         zIndex: "1100"
     },
     container: {
@@ -60,6 +62,7 @@ const headerStyle = {
         textTransform: "none",
         color: "inherit",
         padding: "8px 16px",
+        alignItems: "center",
         letterSpacing: "unset",
         "&:hover,&:focus": {
             color: "inherit",

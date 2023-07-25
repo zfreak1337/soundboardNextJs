@@ -13,6 +13,7 @@ import IconButton from "@mui/material/IconButton";
 import Button from "@mui/material/Button";
 import Hidden from "@mui/material/Hidden";
 import Drawer from "@mui/material/Drawer";
+
 // @material-ui/icons
 import Menu from "@mui/material/Menu";
 // core components
@@ -63,7 +64,7 @@ export default function Header(props) {
         [classes.fixed]: fixed
     });
     const brandComponent = (
-        <Link href="/components" as="/components">
+        <Link href="#" as="#">
             <Button className={classes.title}>{brand}</Button>
         </Link>
     );
@@ -89,7 +90,7 @@ export default function Header(props) {
                         aria-label="open drawer"
                         onClick={handleDrawerToggle}
                     >
-                        <Menu />
+                        <Menu/>
                     </IconButton>
                 </Hidden>
             </Toolbar>
