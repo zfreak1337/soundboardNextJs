@@ -4,7 +4,7 @@ import {ThemeProvider, makeStyles} from "@mui/styles";
 import {createTheme, responsiveFontSizes} from '@mui/material/styles';
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-
+import { FaVk } from "react-icons/fa6";
 // @material-ui/icons
 import Search from "@mui/icons-material/Search";
 import Header from "components/Header/Header.js";
@@ -29,7 +29,7 @@ export default function SectionNavbars() {
                     style={{ backgroundImage: "url('/img/bg.jpg')" }}
                 >
                     <Header
-                        brand="PrikoliSoundBoard"
+                        brand="паблик для приколистов 7/0"
                         color="rose"
                         leftLinks={
                             <List className={classes.list}>
@@ -39,10 +39,8 @@ export default function SectionNavbars() {
                                         className={classes.navLink}
                                         onClick={() => "location.href='https://vk.com/prikoli_na_kazhdiy_denb"}
                                         color="transparent"
-
-
-                                    > VK
-
+                                    >
+                                    <FaVk/>
                                     </Button>
                                 </ListItem>
                             </List>
