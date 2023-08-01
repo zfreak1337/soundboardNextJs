@@ -24,8 +24,32 @@ const styles = {
 const useStyles = makeStyles(styles);
 
 export default function CardList() {
+    const clipboard1 = useClipboard();
     const clipboard = useClipboard();
     const clipboard2 = useClipboard();
+    const clipboard3 = useClipboard();
+    const clipboard4 = useClipboard();
+    const clipboard5 = useClipboard();
+    const clipboard6 = useClipboard();
+    const clipboard7 = useClipboard();
+    const clipboard8 = useClipboard();
+    const clipboard9 = useClipboard();
+    const clipboard10 = useClipboard();
+    const clipboard11 = useClipboard();
+    const clipboard12 = useClipboard();
+    const clipboard13 = useClipboard();
+    const clipboard14 = useClipboard();
+    const clipboard15 = useClipboard();
+    const clipboard16 = useClipboard();
+    const clipboard17 = useClipboard();
+    const clipboard18 = useClipboard();
+    const clipboard19 = useClipboard();
+    const clipboard20 = useClipboard();
+    const clipboard21 = useClipboard();
+    const clipboard22 = useClipboard();
+
+
+
     const classes = useStyles();
     const vata = () => {
         saveAs(
@@ -137,10 +161,98 @@ export default function CardList() {
     };
     const vmoyomgorode = () => {
         saveAs(
-            "https://cdn.discordapp.com/attachments/1133688730641780776/1135503107443404800/hohol.mp4",
-            "hohol.mp4"
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135505823305580565/vmoyomgorode.webm   ",
+            "vmoyomgorode.mp4"
         );
     };
+    const yatebyanaidu = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135801801346658314/yatebyanaidu.mp4",
+            "yatebyanaidu.mp4"
+        );
+    };
+    const neya = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135825343119360060/neya.mp4",
+            "neya.mp4"
+        );
+    };
+    const chaskakdam = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135826360703664158/chaskakdam.webm",
+            "chaskakdam.mp4"
+        );
+    };
+    const cheyatebeotvechay = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135828452285628457/cheyatebeotvechay.mp4",
+            "cheyatebeotvechay.mp4"
+        );
+    };
+    const cry = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135828582820761610/cry.mp4",
+            "cry.mp4"
+        );
+    };
+    const chmo = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135828758666944522/chmo.mp4",
+            "chmo.mp4"
+        );
+    };
+    const debil = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135828911050199113/debil.mp4",
+            "debil.mp4"
+        );
+    };
+    const druzi = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135829071843049502/druzi.mp4",
+            "druzi.mp4"
+        );
+    };
+    const fanat_papicha = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135829232522637312/fanat_papicha.mp4",
+            "fanat_papicha.mp4"
+        );
+    };
+    const Gg = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135829421320851516/Gg.mp4",
+            "Gg.mp4"
+        );
+    };
+    const haha = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135829607900266626/haha.webm",
+            "haha.mp4"
+        );
+    };
+    const hehe = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135829840898043945/hehe.webm",
+            "hehe.mp4"
+        );
+    };
+    const ichtoteper = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135830002768810024/ichtoteper.webm",
+            "ichtoteper.mp4"
+        );
+    };
+    const k_vrachu = () => {
+        saveAs(
+            "https://cdn.discordapp.com/attachments/1133688730641780776/1135830272265429042/k_vrachu.webm",
+            "k_vrachu.mp4"
+        );
+    };
+
+
+
+
 
 
     return (
@@ -158,10 +270,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={vata}>
                                DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard1.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1133688962079268864/vata.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard1.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1133688962079268864/vata.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -179,10 +291,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={untekuGolovuPiloy}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard3.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1134355208147836998/untekuGolovuPiloy.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard3.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1134355208147836998/untekuGolovuPiloy.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -200,10 +312,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={kasetnimibombami}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard4.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1134355041302630560/kasetnimibombami.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard4.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1134355041302630560/kasetnimibombami.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -221,10 +333,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={Prostitutka}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard5.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135467484728787015/Prostitutka.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard5.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135467484728787015/Prostitutka.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -234,7 +346,7 @@ export default function CardList() {
                     <Player
                         playsInline
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135471480914845696/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135468863019032607/fuckyou.mp4"
@@ -245,10 +357,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={fuckyou}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard6.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135468863019032607/fuckyou.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard6.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135468863019032607/fuckyou.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -266,10 +378,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={chmoebanoe}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard7.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135476314791485580/chmoebanoe.webm'} readOnly type="hidden" />
+                            <input ref={clipboard7.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135476314791485580/chmoebanoe.webm'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -287,10 +399,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={soy}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard8.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135477277317148792/soy.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard8.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135477277317148792/soy.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -302,7 +414,7 @@ export default function CardList() {
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135483108095967383/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135482948645290084/ukrop.mp4"
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                     />
                     <CardBody>
@@ -311,10 +423,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={ukrop}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard9.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135482948645290084/ukrop.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard9.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135482948645290084/ukrop.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -324,7 +436,7 @@ export default function CardList() {
                     <Player
                         playsInline
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135484608402686022/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135483878644125768/tidaun.mp4"
@@ -335,10 +447,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={ozon}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard10.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135483878644125768/tidaun.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard10.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135483878644125768/tidaun.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -356,10 +468,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={goblinPidori}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard11.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135489702049357854/vivsepidori.webm'} readOnly type="hidden" />
+                            <input ref={clipboard11.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135489702049357854/vivsepidori.webm'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -377,10 +489,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={shiziki}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard12.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135490541765791825/shiziki.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard12.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135490541765791825/shiziki.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -398,10 +510,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={skuf}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard13.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135491375136243742/skuf.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard13.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135491375136243742/skuf.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -411,7 +523,7 @@ export default function CardList() {
                     <Player
                         playsInline
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135495843131162694/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135495700822634577/bukvalnoya.mp4"
@@ -422,10 +534,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={bukvalnoya}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard14.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135495700822634577/bukvalnoya.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard14.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135495700822634577/bukvalnoya.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -443,10 +555,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={utrechko}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard15.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135496750124249159/dobroeutrechko.webm'} readOnly type="hidden" />
+                            <input ref={clipboard15.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135496750124249159/dobroeutrechko.webm'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -456,7 +568,7 @@ export default function CardList() {
                     <Player
                         playsInline
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135497737144631347/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135497643578110065/clown.mp4"
@@ -467,10 +579,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={clown}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard16.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135497643578110065/clown.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard16.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135497643578110065/clown.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -482,7 +594,7 @@ export default function CardList() {
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135498735028277299/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135498543486992394/pogoditeEtoreal.mp4"
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                     />
                     <CardBody>
@@ -491,10 +603,10 @@ export default function CardList() {
                             <Button  color="rose" onClick={etorealno}>
                                 DOWNLOAD
                             </Button>
-                            <Button justIcon round color="rose" onClick={clipboard.copy}>
+                            <Button justIcon round color="rose" onClick={clipboard17.copy}>
                                 <ContentCopyIcon className={classes.ContentCopyIcon} />
                             </Button>
-                            <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135498543486992394/pogoditeEtoreal.mp4'} readOnly type="hidden" />
+                            <input ref={clipboard17.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135498543486992394/pogoditeEtoreal.mp4'} readOnly type="hidden" />
 
 
                         </Grid>
@@ -525,7 +637,7 @@ export default function CardList() {
                         poster="https://media.discordapp.net/attachments/1133688730641780776/1135503225458536479/image.png"
                         src="https://cdn.discordapp.com/attachments/1133688730641780776/1135503107443404800/hohol.mp4"
                         fluid={false}
-                        height='60%'
+                        height={153}
                         width='100%'
                     />
                     <CardBody>
@@ -540,6 +652,96 @@ export default function CardList() {
                             <input ref={clipboard.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135503107443404800/hohol.mp4'} readOnly type="hidden"  />
 
 
+                        </Grid>
+                    </CardBody>
+                </Card>
+                <Card style={{width: "17rem"}}>
+                    <Player
+                        playsInline
+                        poster="https://media.discordapp.net/attachments/1133688730641780776/1135798615420448838/image.png"
+                        src="https://cdn.discordapp.com/attachments/1133688730641780776/1135505823305580565/vmoyomgorode.webm"
+                        fluid={false}
+                        height={153}
+                        width='100%'
+                    />
+                    <CardBody>
+                        <Grid container spacing={2} justifyContent="space-around">
+                            <h3 className={classes.cardTitle}>Был бы ты в моем городе</h3>
+                            <Button  color="rose" onClick={vmoyomgorode}>
+                                DOWNLOAD
+                            </Button>
+                            <Button justIcon round color="rose" onClick={clipboard18.copy}>
+                                <ContentCopyIcon className={classes.ContentCopyIcon} />
+                            </Button>
+                            <input ref={clipboard18.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135505823305580565/vmoyomgorode.webm'} readOnly type="hidden"  />
+
+
+                        </Grid>
+                    </CardBody>
+                </Card>
+                <Card style={{width: "17rem"}}>
+                    <Player
+                        playsInline
+                        poster="https://media.discordapp.net/attachments/1133688730641780776/1135801943118332025/image.png"
+                        src="https://cdn.discordapp.com/attachments/1133688730641780776/1135801801346658314/yatebyanaidu.mp4"
+                        fluid={false}
+                        height={153}
+                        width='100%'
+                    />
+                    <CardBody>
+                        <Grid container spacing={2} justifyContent="space-around">
+                            <h3 className={classes.cardTitle}>Я тебя найду</h3>
+                            <Button  color="rose" onClick={yatebyanaidu}>
+                                DOWNLOAD
+                            </Button>
+                            <Button justIcon round color="rose" onClick={clipboard19.copy}>
+                                <ContentCopyIcon className={classes.ContentCopyIcon} />
+                            </Button>
+                            <input ref={clipboard19.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135801801346658314/yatebyanaidu.mp4'} readOnly type="hidden"  />
+                        </Grid>
+                    </CardBody>
+                </Card>
+                <Card style={{width: "17rem"}}>
+                    <Player
+                        playsInline
+                        poster="https://media.discordapp.net/attachments/1133688730641780776/1135825714873114725/image.png"
+                        src="https://cdn.discordapp.com/attachments/1133688730641780776/1135825343119360060/neya.mp4"
+                        fluid={false}
+                        height={153}
+                        width='100%'
+                    />
+                    <CardBody>
+                        <Grid container spacing={2} justifyContent="space-around">
+                            <h3 className={classes.cardTitle}>Это был не я</h3>
+                            <Button  color="rose" onClick={neya}>
+                                DOWNLOAD
+                            </Button>
+                            <Button justIcon round color="rose" onClick={clipboard20.copy}>
+                                <ContentCopyIcon className={classes.ContentCopyIcon} />
+                            </Button>
+                            <input ref={clipboard20.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135825343119360060/neya.mp4'} readOnly type="hidden"  />
+                        </Grid>
+                    </CardBody>
+                </Card>
+                <Card style={{width: "17rem"}}>
+                    <Player
+                        playsInline
+                        poster="https://media.discordapp.net/attachments/1133688730641780776/1135826473488502804/image.png"
+                        src="https://cdn.discordapp.com/attachments/1133688730641780776/1135826360703664158/chaskakdam.webm"
+                        fluid={false}
+                        height={153}
+                        width='100%'
+                    />
+                    <CardBody>
+                        <Grid container spacing={2} justifyContent="space-around">
+                            <h3 className={classes.cardTitle}>Щас как дам</h3>
+                            <Button  color="rose" onClick={chaskakdam}>
+                                DOWNLOAD
+                            </Button>
+                            <Button justIcon round color="rose" onClick={clipboard21.copy}>
+                                <ContentCopyIcon className={classes.ContentCopyIcon} />
+                            </Button>
+                            <input ref={clipboard21.target} value={'https://cdn.discordapp.com/attachments/1133688730641780776/1135826360703664158/chaskakdam.webm'} readOnly type="hidden"  />
                         </Grid>
                     </CardBody>
                 </Card>
