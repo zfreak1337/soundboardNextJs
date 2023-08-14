@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 // @material-ui/core components
 import {ThemeProvider, makeStyles} from "@mui/styles";
 import {createTheme, responsiveFontSizes} from '@mui/material/styles';
@@ -19,6 +19,8 @@ const useStyles = makeStyles(styles);
 
 
 
+
+
 export default function SectionNavbars() {
     const classes = useStyles();
     return (
@@ -34,35 +36,19 @@ export default function SectionNavbars() {
                         leftLinks={
                             <List className={classes.list}>
                                 <ListItem className={classes.listItem}>
-                                    <Button
-                                        href="https://vk.com/prikoli_na_kazhdiy_denb"
-                                        className={classes.navLink}
-                                        onClick={() => "location.href='https://vk.com/prikoli_na_kazhdiy_denb"}
-                                        color="transparent"
-                                    >
-                                    <FaVk/>
-                                    </Button>
+
                                 </ListItem>
                             </List>
                         }
                         rightLinks={
                             <div>
-                                <CustomInput
-                                    white
-                                    inputRootCustomClasses={classes.inputRootCustomClasses}
-                                    formControlProps={{
-                                        className: classes.formControl
-                                    }}
-                                    inputProps={{
-                                        placeholder: "Search",
-                                        inputProps: {
-                                            "aria-label": "Search",
-                                            className: classes.searchInput
-                                        }
-                                    }}
-                                />
-                                <Button justIcon round color="white">
-                                    <Search className={classes.searchIcon} />
+                                <Button
+                                    href="https://vk.com/prikoli_na_kazhdiy_denb"
+                                    className={classes.navLink}
+                                    onClick={() => "location.href='https://vk.com/prikoli_na_kazhdiy_denb"}
+                                    color="transparent"
+                                >
+                                    <FaVk/>
                                 </Button>
                             </div>
                         }

@@ -8,7 +8,7 @@ import Button from "components/Button/Button.js";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import imagesStyles from "styles/imagesStyles.js";
 import { Player, ControlBar } from 'video-react';
-import { cardTitle } from "styles/nextjs-material-kit.js";
+    import { cardTitle } from "styles/nextjs-material-kit.js";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import { saveAs } from "file-saver";
@@ -22,11 +22,27 @@ const styles = {
     cardTitle,
 };
 
+const cards = {
+    card1 : {
+        cardName: "Вата ебаная",
+    },
+    card2 : {
+        cardName: "Унтер ватный",
+    },
+    card3 : {
+        cardName: "Кассетными бомбами",
+    },
+    card4 : {
+        cardName: "Проститутка",
+    }
+}
+
 const useStyles = makeStyles(styles);
 
 export default function CardList() {
-    const clipboard1 = useClipboard();
+
     const clipboard = useClipboard();
+    const clipboard1 = useClipboard();
     const clipboard2 = useClipboard();
     const clipboard3 = useClipboard();
     const clipboard4 = useClipboard();
@@ -490,7 +506,7 @@ export default function CardList() {
                     />
                     <CardBody>
                         <Grid container spacing={2} justifyContent="space-around">
-                            <h3 className={classes.cardTitle}>Вата ебаная</h3>
+                            <h3 className={classes.cardTitle}>{cards.card1.cardName}</h3>
                             <Button  color="rose" onClick={vata}>
                                DOWNLOAD
                             </Button>
@@ -511,7 +527,7 @@ export default function CardList() {
                     />
                     <CardBody>
                         <Grid container spacing={2} justifyContent="space-around">
-                            <h3 className={classes.cardTitle}>Унтерку голову</h3>
+                            <h3 className={classes.cardTitle}>{cards.card2.cardName}</h3>
                             <Button  color="rose" onClick={untekuGolovuPiloy}>
                                 DOWNLOAD
                             </Button>
@@ -532,7 +548,7 @@ export default function CardList() {
                     />
                     <CardBody>
                         <Grid container spacing={2} justifyContent="space-around">
-                            <h3 className={classes.cardTitle}>Кассетными бомбами</h3>
+                            <h3 className={classes.cardTitle}>{cards.card3.cardName}</h3>
                             <Button  color="rose" onClick={kasetnimibombami}>
                                 DOWNLOAD
                             </Button>
@@ -553,7 +569,7 @@ export default function CardList() {
                     />
                     <CardBody>
                         <Grid container spacing={2} justifyContent="space-around">
-                            <h3 className={classes.cardTitle}>Проститутка</h3>
+                            <h3 className={classes.cardTitle}>{cards.card4.cardName}</h3>
                             <Button  color="rose" onClick={Prostitutka}>
                                 DOWNLOAD
                             </Button>
