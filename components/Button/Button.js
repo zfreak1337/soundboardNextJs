@@ -18,7 +18,7 @@ const makeComponentStyles = makeStyles(() => ({
     ...buttonStyle
 }));
 
-const RegularButton = React.forwardRef((props, ref) => {
+const  RegularButton = React.forwardRef((props, ref) => {
     const {
         color,
         round,
@@ -49,11 +49,13 @@ const RegularButton = React.forwardRef((props, ref) => {
         [classes.justIcon]: justIcon,
         [className]: className
     });
-    return (
-        <Button {...rest} ref={ref} classes={{ root: btnClasses }}>
-            {children}
-        </Button>
-    );
+
+        return (
+            <Button {...rest} ref={ref} classes={{root: btnClasses}}>
+                {children}
+            </Button>
+        );
+
 });
 
 RegularButton.propTypes = {
@@ -82,5 +84,5 @@ RegularButton.propTypes = {
     children: PropTypes.node,
     className: PropTypes.string
 };
-RegularButton.displayNames = "button";
+RegularButton.displayName = 'RegularButton';
 export default RegularButton;
