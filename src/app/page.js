@@ -25,6 +25,7 @@ export default function Home() {
     const classes = useStyles();
   return (
     <div>
+        <link rel='icon' href='/joker.ico'/>
         <SectionNavbars />
         <CardList/>
 
