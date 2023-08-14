@@ -24,7 +24,7 @@ const styles = {
 
 const cards = {
     card1 : {
-        cardName: "Вата ебаная",
+        cardName: "Ну вата ебаная",
     },
     card2 : {
         cardName: "Унтер ватный",
@@ -770,7 +770,7 @@ export default function CardList() {
                     />
                     <CardBody>
                         <Grid container spacing={2} justifyContent="space-around">
-                            <h3 className={classes.cardTitle}>Буквально я</h3>
+                            <h3 className={classes.cardTitle}>Это же буквально я</h3>
                             <Button  color="rose" onClick={bukvalnoya}>
                                 DOWNLOAD
                             </Button>
